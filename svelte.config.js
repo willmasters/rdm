@@ -6,7 +6,6 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	{
     adapter: vercel(),
 	preprocess: [vitePreprocess({})],
 
