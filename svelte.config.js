@@ -1,18 +1,13 @@
 //import adapter from '@sveltejs/adapter-cloudflare';
 import vercel from '@sveltejs/adapter-vercel';
-
-export default {
-  kit: {
-    adapter: vercel()
-  }
-};
-
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
+	{
+    adapter: vercel(),
 	preprocess: [vitePreprocess({})],
 
 	kit: {
