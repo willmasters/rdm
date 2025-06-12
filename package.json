@@ -2,6 +2,7 @@
 	"name": "rdm",
 	"version": "0.0.1",
 	"private": true,
+	"packageManager": "pnpm@8.15.4",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
