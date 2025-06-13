@@ -19,7 +19,7 @@
 		"@playwright/test": "^1.41.2",
 		"@sveltejs/adapter-cloudflare": "^2.3.4",
 		"@sveltejs/adapter-vercel": "^1.0.4",
-		"@sveltejs/kit": "^1.30.3",
+		"@sveltejs/kit": "^1.30.4",
 		"@types/luxon": "^3.4.2",
 		"@typescript-eslint/eslint-plugin": "^6.21.0",
 		"@typescript-eslint/parser": "^6.21.0",
