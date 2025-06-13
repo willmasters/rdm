@@ -137,7 +137,7 @@
 </script>
 
 <svelte:head>
-	<title>Real Debrid Manager | Homepage</title>
+	<title>RD Manager | Homepage</title>
 </svelte:head>
 
 {#if data.clientId === undefined}

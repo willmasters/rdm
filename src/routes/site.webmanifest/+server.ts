@@ -16,10 +16,10 @@ const manifest: CustomWebAppManifest = {
 	scope: '/',
 	start_url: '/',
 	id: '/',
-	name: 'Real Debrid Manager',
+	name: 'RD Manager',
 	short_name: 'RDM',
 	description:
-		'Effortlessly organize and control your Real Debrid torrents and downloads. Simplifying the process of scraping and downloading.',
+		'Effortlessly organize and control your RD',
 	orientation: 'portrait',
 	categories: ['entertainment', 'utilities'], // https://github.com/w3c/manifest/wiki/Categories,
 	screenshots: [
