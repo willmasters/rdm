@@ -229,7 +229,7 @@
 					}}
 				>
 					<Sun class="mr-2 h-4 w-4" />
-					Light Mode
+					Light White Mode
 				</Button>
 			{/if}
 		</div>
