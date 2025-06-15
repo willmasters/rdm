@@ -17,9 +17,13 @@ const protectRoutes: Handle = async ({ event, resolve }) => {
 const basicAuth: Handle = async ({ event, resolve }) => {
 	const isProd = process.env.NODE_ENV === 'production';
 
-	// Optional: apply Basic Auth only to a specific route
+	// Public paths that should bypass basic auth
+	const publicPaths = [/^\/sitemap\.xml$/, /^\/site\.webmanifest$/, /^\/robots\.txt$/];
+	const isPublic = publicPaths.some((regex) => regex.test(event.url.pathname));
+
+	// Protected paths (apply basic auth only if not in publicPaths)
 	const protectedPaths = ['/app', '/admin', '/secret'];
-	const shouldProtect = protectedPaths.some((path) => event.url.pathname.startsWith(path));
+	const shouldProtect = !isPublic && protectedPaths.some((path) => event.url.pathname.startsWith(path));
 
 	if (isProd && shouldProtect) {
 		const authHeader = event.request.headers.get('authorization');
