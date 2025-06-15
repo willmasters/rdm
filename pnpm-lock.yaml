@@ -50,7 +50,7 @@ devDependencies:
     specifier: ^1.53.0
     version: 1.53.0
   '@sveltejs/adapter-vercel':
-    specifier: ^1.0.6
+    specifier: 1.0.6
     version: 1.0.6(@sveltejs/kit@1.30.4)
   '@sveltejs/kit':
     specifier: 1.30.4
