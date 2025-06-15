@@ -22,7 +22,7 @@ const basicAuth: Handle = async ({ event, resolve }) => {
 	const isPublic = publicPaths.some((regex) => regex.test(event.url.pathname));
 
 	// Protected paths (apply basic auth only if not in publicPaths)
-	const protectedPaths = ['/', '/admin', '/secret'];
+	const protectedPaths = ['/', '/app', '/secret'];
 	const shouldProtect = !isPublic && protectedPaths.some((path) => event.url.pathname.startsWith(path));
 
 	if (isProd && shouldProtect) {
