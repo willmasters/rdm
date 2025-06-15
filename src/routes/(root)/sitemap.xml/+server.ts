@@ -4,7 +4,7 @@ import type { RequestHandler } from '@sveltejs/kit';
 
 export const GET: RequestHandler = async () => {
 	return await sitemap.response({
-		origin: 'https://rdm.ayush.gg',
+		origin: 'https://rdm.ctrls.top',
 		excludePatterns: [
 			'^/api.*',
 			'^/sitemap.xml',
