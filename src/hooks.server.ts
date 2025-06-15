@@ -18,7 +18,7 @@ const basicAuth: Handle = async ({ event, resolve }) => {
 	const isProd = process.env.NODE_ENV === 'production';
 
 	// Optional: apply Basic Auth only to a specific route
-	const protectedPaths = ['/', '/admin', '/secret'];
+	const protectedPaths = ['/admin', '/secret'];
 	const shouldProtect = protectedPaths.some((path) => event.url.pathname.startsWith(path));
 
 	if (isProd && shouldProtect) {
