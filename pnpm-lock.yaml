@@ -36,7 +36,7 @@ dependencies:
     specifier: ^1.2.1
     version: 1.2.1
   svelte-sonner:
-    specifier: 0.3.17
+    specifier: ^0.3.17
     version: 0.3.17(svelte@4.2.19)
   tailwind-merge:
     specifier: ^2.6.0
