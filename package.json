@@ -51,7 +51,7 @@
 		"luxon": "^3.6.1",
 		"mode-watcher": "0.5.1",
 		"radix-icons-svelte": "^1.2.1",
-		"svelte-sonner": "0.3.17",
+		"svelte-sonner": "^0.3.17",
 		"tailwind-merge": "^2.6.0",
 		"tailwind-variants": "^0.2.1"
 	}

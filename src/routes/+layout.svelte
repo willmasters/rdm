@@ -6,7 +6,4 @@
 
 <ModeWatcher track={true} />
 <Toaster richColors closeButton />
-<svelte:head>
-	<script src="https://speed-insights.vercel.app/script.js" defer></script>
-</svelte:head>
 <slot />
