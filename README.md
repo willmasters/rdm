@@ -7,8 +7,8 @@ To run this project, you will need to add the following environment variables to
 ```
 PUBLIC_BASE_URI="https://api.real-debrid.com/rest/1.0"
 PUBLIC_BASE_AUTH_URI="https://api.real-debrid.com"
-PUBLIC_CLIENT_ID="X245A4XAIBGVM"
-PUBLIC_TORRENTIO_BASE_URI="https://torrentio.strem.fun"
+PUBLIC_CLIENT_ID=""
+PUBLIC_TORRENTIO_BASE_URI=""
 ```
 
 ## Developing
